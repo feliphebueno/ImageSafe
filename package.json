@@ -1,0 +1,32 @@
+{
+    "name": "image-safe",
+    "description": "Protect your images.",
+    "version": "1.0.0",
+    "author": "Rinzler",
+    "contributors": [
+      "Rinzler <feliphezion@gmail.com> (https://github.com/feliphebueno)"
+    ],
+    "license": "GPL-3.0",
+    "main": "lib/main.js",
+    "dependencies": {
+        "angular": "^1.5.8",
+        "angular-animate": "^1.5.8",
+        "angular-resource": "^1.5.8",
+        "angular-route": "^1.5.8",
+        "angular-sanitize": "^1.5.8",
+        "pace-js": "1.0.2",
+        "ngstorage": "^0.3.11",
+        "jquery": "3.1.1",
+        "jquery-ui": "^1.12.1",
+        "bootstrap": "3.3.7",
+        "font-awesome": "4.6.3",
+        "jsencrypt": "2.3.1"
+    },
+    "devDependencies": {
+        "jquery-validation": "^1.14.0",
+        "jquery-masked-input": "*"
+    },
+    "scripts": {
+        "test": "npm --version"
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="ImageSafe">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Image Safe - Encrypt your darkest memories</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
+
+    <!-- //ANGULAR -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.min.js"></script>
+
+    <!-- //CONTROLLERS -->
+    <script src="lib/main.js"></script>
+    <script src="lib/controllers/main-controller.js"></script>
+
+    <!-- //INTERFACE -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui/ui/jquery-1-7.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jsencrypt/bin/jsencrypt.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <ng-view></ng-view>
+    </div>
+</body>
+</html>
